@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    int Mountain(vector<int> arr){
+    int Mountain(vector<int>& arr){
         int s=0,e=arr.size()-1;
         int mid=(s+e)/2;
 
